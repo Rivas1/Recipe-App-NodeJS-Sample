@@ -2,7 +2,7 @@
 A simple application written in nodejs. Prompts user to enter user information. Also has ability to submit a recipe.
 
 # How to Run 
-### *italic* make sure NodeJS, Express, and EJS are installed (use npm)
+### *italic* make sure NodeJS, Express, and EJS are installed (use npm) *italic*
 1. Copy github respository
 2. Open command line
 3. Goto file directory
