@@ -1,0 +1,326 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"C",
+				"crivas-JTicTacToe"
+			],
+			[
+				"in",
+				"initialize_matrix2"
+			],
+			[
+				"frame",
+				"frameNumber"
+			],
+			[
+				"fram",
+				"frameNumber"
+			],
+			[
+				"geet",
+				"getFrameNumber"
+			],
+			[
+				"Page",
+				"page_table_element"
+			],
+			[
+				"page_ta",
+				"page_table_element"
+			],
+			[
+				"page_",
+				"page_table_element"
+			],
+			[
+				"vali",
+				"valid"
+			],
+			[
+				"page",
+				"page_table_element"
+			],
+			[
+				"time",
+				"totalTime"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"matri",
+				"matrixMultiplication"
+			],
+			[
+				"displ",
+				"display_result"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "var express = require('express');\nvar bodyParser = require('body-parser');\nvar path = require('path');\n\nvar app = express();\n\n// Body Parser Middleware\napp.use(bodyParser.json());\napp.use(bodyParser.urlencoded( {extended: false} ));\n\n// set static path\napp.use(express.static(path.join(__dirname, 'public')));\n\n// app.get ( website, function ( request, response ) ) {}\napp.get( '/', function( req, res ) \n{\n\tres.send('Hello Person');\n});\n\napp.listen( 3000, function() \n{\n\tconsole.log('Server started on Port 3000.');\n});\n\n",
+			"file": "app.js",
+			"file_size": 354,
+			"file_write_time": 131617631769995005,
+			"settings":
+			{
+				"buffer_size": 522,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app.sublime-project",
+			"settings":
+			{
+				"buffer_size": 45,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 150.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Chris R/Desktop/NodeJs"
+	],
+	"file_history":
+	[
+		"/C/Users/Chris R/Desktop/heroku/helloworld.java",
+		"/C/Users/Chris R/Desktop/example302/java-getting-started/src/main/java/com/example/Main.java",
+		"/C/Users/Chris R/Desktop/JTicTacToe.java",
+		"/C/Users/Chris R/Desktop/test.js",
+		"/C/Users/Chris R/Desktop/CE10.java",
+		"/C/Users/Chris R/Desktop/CS 331/Alg4.java",
+		"/C/Users/Chris R/Desktop/problem1section1_1.java",
+		"/C/Users/Chris R/Desktop/problem24section1_2.java",
+		"/C/Users/Chris R/Desktop/problem7section1_3.java",
+		"/C/Users/Chris R/Desktop/problem8section1_3.java",
+		"/C/Users/Chris R/Desktop/CE1.java",
+		"/C/Users/Chris R/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Chris R/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Chris R/Desktop/CS 431/physical_memory.java",
+		"/C/Users/Chris R/Desktop/CS 431/page_table.java",
+		"/C/Users/Chris R/Desktop/Strassen.java",
+		"/C/Users/Chris R/Desktop/javascript2.html",
+		"/C/Users/Chris R/Desktop/javascript1.html",
+		"/C/Users/Chris R/Desktop/p1ClassicalMultiplication.java",
+		"/C/Users/Chris R/Desktop/p1divandconq.java",
+		"/C/Users/Chris R/Desktop/[shell_cmd",
+		"/C/Users/Chris R/Desktop/[dir",
+		"/C/Users/Chris R/Desktop/[path",
+		"/C/Users/Chris R/Desktop/project1.java",
+		"/D/UPDATE/settings.in"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 131.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 522,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								203,
+								203
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app.sublime-project",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "app.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 335.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
